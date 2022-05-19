@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14158" started-at="2022-05-16T11:58:40 IST" finished-at="2022-05-16T11:58:54 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14158" started-at="2022-05-16T11:58:40 IST" finished-at="2022-05-16T11:58:54 IST">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.LoginTest@5579bb86]" name="setup" is-config="true" duration-ms="6987" started-at="2022-05-16T11:58:40 IST" finished-at="2022-05-16T11:58:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.LoginTest@5579bb86]" name="login" duration-ms="6238" started-at="2022-05-16T11:58:47 IST" finished-at="2022-05-16T11:58:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTest@5579bb86]" name="teardown" is-config="true" duration-ms="859" started-at="2022-05-16T11:58:53 IST" finished-at="2022-05-16T11:58:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
